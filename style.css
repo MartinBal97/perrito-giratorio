@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-color: rgb(53, 52, 52)
+}
+.containerAll {
+    background-color: rgb(245, 245, 241);
+    position: relative;
+    transform-origin:0% 0%;
+    transition: transform 0.5s linear;
+}
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding-top:5rem;
+}
+img {
+    width: 100%;
+    margin: 1rem 0;
+
+}
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(245, 111, 111);
+    border-radius: 50%;
+    position:absolute;
+    transition: transform 0.5s linear;
+    top: -6rem;
+    left: -6rem; 
+}
+
+.circle .show{
+    position:absolute;
+    top: 8rem;
+    left: 8rem;
+    font-size: 1.7rem;
+    color: beige;
+    /* transform: rotate(-25deg); */
+}
+.circle .close{
+    position:absolute;
+    top: 2.7rem;
+    left: 3rem;
+    font-size: 2rem;
+    color: beige;
+}
+
+p {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+p:last-of-type{
+    padding-bottom: 10rem;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+.links {
+    z-index: -1;
+    position: fixed;
+    bottom: 2rem;
+    left: -15rem;
+    /* top:38rem;
+    left:-15rem */
+}
+.link {
+    color: beige;
+    font-size: 1.2rem;
+    margin: 1rem;
+    transition: transform 0.5s linear;
+    cursor: pointer;
+}
+.link i{
+    margin-right: 1rem;
+}
